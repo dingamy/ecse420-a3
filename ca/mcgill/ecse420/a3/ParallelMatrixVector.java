@@ -1,3 +1,4 @@
+package ca.mcgill.ecse420.a3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
@@ -13,10 +14,6 @@ public class ParallelMatrixVector {
 
     public double[] multiply(double[][] A, double[] x) throws Exception {
         int n = A.length;
-
-        if (A[0].length != x.length) {
-            throw new IllegalArgumentException("Matrix and vector size mismatch.");
-        }
 
         double[] result = new double[n];
         List<Future<?>> futures = new ArrayList<>();

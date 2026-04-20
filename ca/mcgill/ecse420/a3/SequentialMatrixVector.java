@@ -1,3 +1,4 @@
+package ca.mcgill.ecse420.a3;
 public class SequentialMatrixVector {
     public static double[] multiply(double[][] A, double[] x) {
         int rows = A.length;

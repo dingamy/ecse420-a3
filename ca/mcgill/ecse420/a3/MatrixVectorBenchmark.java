@@ -1,3 +1,4 @@
+package ca.mcgill.ecse420.a3;
 import java.util.Random;
 
 public class MatrixVectorBenchmark {
